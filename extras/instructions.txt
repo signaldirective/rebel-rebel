@@ -1,0 +1,4 @@
+Fastfetch script instructions:
+1) copy the 'rebel-rebel' directory to ~/.config/fastfetch/
+2) copy rebel.sh in the 'rebel-rebel' directory to somewhere in your path (e.g. ~/.local/bin/)
+3) type 'rebel.sh' in a terminal emulator and enjoy!
