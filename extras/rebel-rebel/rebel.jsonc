@@ -59,18 +59,19 @@
             "type": "custom",
             "format": "\u001b[90m  \u001b[31m  \u001b[32m  \u001b[33m  \u001b[34m  \u001b[35m  \u001b[36m  \u001b[37m "
         },
-       {
-          "type": "os",
-          "key": " ",
-           "keyColor": "34",  // = color4
-           "format": "{2}",
+          {
+            "type": "command",
+            "key": " ",
+            "keyColor": "34",  // = color4
+            "text": "version=$(omarchy-version); echo \"Omarchy $version\"",
         },
-      //  {
-        //    "type": "command",
-        //    "key": " ",
-        //    "keyColor": "34",  // = color4
-        //    "text": "version=$(omarchy-version); echo \"Omarchy $version\"",
-       // },
+        {
+            "type": "command",
+            "key": "\ue900 ",
+            "keyColor":"34",
+            "text": "channel=$(omarchy-version-channel); echo \"$channel\""
+        },
+
         {
             "type": "kernel",
             "key": " ",
@@ -139,7 +140,7 @@
             "type": "command",
             "key": " ",
             "keyColor": "34",
-            "text": "theme=$(gtk-theme); echo -e \"$theme \\e[38m●\\e[37m●\\e[36m●\\e[35m●\\e[34m●\\e[33m●\\e[32m●\\e[31m●\"",
+            "text": "theme=$(omarchy-theme-curent); echo -e \"$theme \\e[38m●\\e[37m●\\e[36m●\\e[35m●\\e[34m●\\e[33m●\\e[32m●\\e[31m●\"",
         },
         {
             "type": "icons",
